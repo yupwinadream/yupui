@@ -1,24 +1,21 @@
-# yup-ui
+<!-- npm组件发布平台使用的描述是项目的.md文件 -->
+# yup-ui 组件库
 
-## Project setup
-```
-npm install
-```
+### 1.快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+npm i yup-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 2.引用组件库
+```javascript
+// 全部引入
+import 'yup-ui/dist/css/index.css';
+import YUI from 'yup-ui';
+Vue.use(YUI);
 
-### Lints and fixes files
+//按需引用
+import 'yup-ui/dist/css/demo.css';
+import {Demo} from 'yup-ui';
+Vue.use(Demo);
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

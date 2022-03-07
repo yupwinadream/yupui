@@ -28,7 +28,7 @@ module.exports = {
     output: {
         filename: '[name].umd.js',
         path: path.resolve(__dirname, 'dist'),//使用绝对路径
-        library: "mui",
+        library: "yui",
         libraryTarget: "umd",
     },
     plugins: [
