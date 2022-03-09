@@ -2,16 +2,18 @@
  * @Author: Qiao YuPei
  * @Date: 2022-03-08 13:45:04
  * @LastEditors: Qiao YuPei
- * @LastEditTime: 2022-03-08 20:45:16
+ * @LastEditTime: 2022-03-09 15:07:55
  * @Description: file content
  */
 module.exports = {
+  title: 'YupUI',
+  description: '慕课网学习',
+  base: "/yupui/",
   themeConfig: {
-    title: 'YupUI',
-    logo: '/assets/img/logo.png',
+    logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'GitHub', link: 'https://fanyi.baidu.com/?aldtype=16047#auto/zh', target: '_blank' },
+      { text: 'GitHub', link: 'https://github.com/yupwinadream/yupui', target: '_blank' },
       { text: 'Npm', link: 'https://www.npmjs.com/package/yup-ui', target: '_blank' },
     ],
     sidebar: [
